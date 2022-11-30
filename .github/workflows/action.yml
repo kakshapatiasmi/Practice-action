@@ -1,0 +1,10 @@
+name: Practice Github action 
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu_latest
+    steps:
+       -name: printname
+         run: echo "Asmita"
+   
+       
